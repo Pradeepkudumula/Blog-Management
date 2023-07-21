@@ -1,0 +1,35 @@
+.main
+{
+    display: flex;
+    justify-content: space-evenly;
+    height: 60px;
+    background-color: #000000;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.main > .selected {
+    background: grey;
+    display: flex;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    padding: 0 10px 0 10px;
+}
+
+.user-name-item {
+    display: flex;
+    align-items: center;
+}
+
+.main div
+{
+    cursor: pointer;
+}
+
+.main img {
+    height: 111px;
+    width: 200px;
+}
